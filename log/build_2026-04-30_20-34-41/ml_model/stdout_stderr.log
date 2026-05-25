@@ -1,0 +1,34 @@
+running egg_info
+creating ../../build/ml_model/ml_model.egg-info
+writing ../../build/ml_model/ml_model.egg-info/PKG-INFO
+writing dependency_links to ../../build/ml_model/ml_model.egg-info/dependency_links.txt
+writing entry points to ../../build/ml_model/ml_model.egg-info/entry_points.txt
+writing requirements to ../../build/ml_model/ml_model.egg-info/requires.txt
+writing top-level names to ../../build/ml_model/ml_model.egg-info/top_level.txt
+writing manifest file '../../build/ml_model/ml_model.egg-info/SOURCES.txt'
+reading manifest file '../../build/ml_model/ml_model.egg-info/SOURCES.txt'
+writing manifest file '../../build/ml_model/ml_model.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/gramisaam/mtre4820-final-project/build/ml_model/build
+creating /home/gramisaam/mtre4820-final-project/build/ml_model/build/lib
+creating /home/gramisaam/mtre4820-final-project/build/ml_model/build/lib/ml_model
+copying ml_model/model_node.py -> /home/gramisaam/mtre4820-final-project/build/ml_model/build/lib/ml_model
+copying ml_model/__init__.py -> /home/gramisaam/mtre4820-final-project/build/ml_model/build/lib/ml_model
+running install
+running install_lib
+creating /home/gramisaam/mtre4820-final-project/install/ml_model/lib/python3.10/site-packages/ml_model
+copying /home/gramisaam/mtre4820-final-project/build/ml_model/build/lib/ml_model/model_node.py -> /home/gramisaam/mtre4820-final-project/install/ml_model/lib/python3.10/site-packages/ml_model
+copying /home/gramisaam/mtre4820-final-project/build/ml_model/build/lib/ml_model/__init__.py -> /home/gramisaam/mtre4820-final-project/install/ml_model/lib/python3.10/site-packages/ml_model
+byte-compiling /home/gramisaam/mtre4820-final-project/install/ml_model/lib/python3.10/site-packages/ml_model/model_node.py to model_node.cpython-310.pyc
+byte-compiling /home/gramisaam/mtre4820-final-project/install/ml_model/lib/python3.10/site-packages/ml_model/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/gramisaam/mtre4820-final-project/install/ml_model/share/ament_index
+creating /home/gramisaam/mtre4820-final-project/install/ml_model/share/ament_index/resource_index
+creating /home/gramisaam/mtre4820-final-project/install/ml_model/share/ament_index/resource_index/packages
+copying resource/ml_model -> /home/gramisaam/mtre4820-final-project/install/ml_model/share/ament_index/resource_index/packages
+copying package.xml -> /home/gramisaam/mtre4820-final-project/install/ml_model/share/ml_model
+running install_egg_info
+Copying ../../build/ml_model/ml_model.egg-info to /home/gramisaam/mtre4820-final-project/install/ml_model/lib/python3.10/site-packages/ml_model-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/gramisaam/mtre4820-final-project/build/ml_model/install.log'

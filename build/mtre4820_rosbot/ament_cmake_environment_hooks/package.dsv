@@ -1,0 +1,4 @@
+source;share/mtre4820_rosbot/local_setup.bash
+source;share/mtre4820_rosbot/local_setup.dsv
+source;share/mtre4820_rosbot/local_setup.sh
+source;share/mtre4820_rosbot/local_setup.zsh

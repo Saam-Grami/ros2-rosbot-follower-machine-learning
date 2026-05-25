@@ -1,0 +1,25 @@
+[1.562s] Invoking command in '/home/gramisaam/mtre4820-final-project/src/node_example_pkg': PYTHONPATH=/home/gramisaam/mtre4820-final-project/build/node_example_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gramisaam/mtre4820-final-project/install/node_example_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/node_example_pkg build --build-base /home/gramisaam/mtre4820-final-project/build/node_example_pkg/build install --record /home/gramisaam/mtre4820-final-project/build/node_example_pkg/install.log --single-version-externally-managed install_data
+[2.065s] running egg_info
+[2.066s] writing ../../build/node_example_pkg/node_example_pkg.egg-info/PKG-INFO
+[2.067s] writing dependency_links to ../../build/node_example_pkg/node_example_pkg.egg-info/dependency_links.txt
+[2.068s] writing entry points to ../../build/node_example_pkg/node_example_pkg.egg-info/entry_points.txt
+[2.068s] writing requirements to ../../build/node_example_pkg/node_example_pkg.egg-info/requires.txt
+[2.068s] writing top-level names to ../../build/node_example_pkg/node_example_pkg.egg-info/top_level.txt
+[2.107s] reading manifest file '../../build/node_example_pkg/node_example_pkg.egg-info/SOURCES.txt'
+[2.110s] writing manifest file '../../build/node_example_pkg/node_example_pkg.egg-info/SOURCES.txt'
+[2.110s] running build
+[2.110s] running build_py
+[2.111s] copying node_example_pkg/printer_node.py -> /home/gramisaam/mtre4820-final-project/build/node_example_pkg/build/lib/node_example_pkg
+[2.112s] running install
+[2.113s] running install_lib
+[2.116s] copying /home/gramisaam/mtre4820-final-project/build/node_example_pkg/build/lib/node_example_pkg/printer_node.py -> /home/gramisaam/mtre4820-final-project/install/node_example_pkg/lib/python3.10/site-packages/node_example_pkg
+[2.117s] byte-compiling /home/gramisaam/mtre4820-final-project/install/node_example_pkg/lib/python3.10/site-packages/node_example_pkg/printer_node.py to printer_node.cpython-310.pyc
+[2.118s] running install_data
+[2.118s] copying package.xml -> /home/gramisaam/mtre4820-final-project/install/node_example_pkg/share/node_example_pkg
+[2.119s] running install_egg_info
+[2.124s] removing '/home/gramisaam/mtre4820-final-project/install/node_example_pkg/lib/python3.10/site-packages/node_example_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.125s] Copying ../../build/node_example_pkg/node_example_pkg.egg-info to /home/gramisaam/mtre4820-final-project/install/node_example_pkg/lib/python3.10/site-packages/node_example_pkg-0.0.0-py3.10.egg-info
+[2.128s] running install_scripts
+[2.165s] Installing printer_node script to /home/gramisaam/mtre4820-final-project/install/node_example_pkg/lib/node_example_pkg
+[2.167s] writing list of installed files to '/home/gramisaam/mtre4820-final-project/build/node_example_pkg/install.log'
+[2.210s] Invoked command in '/home/gramisaam/mtre4820-final-project/src/node_example_pkg' returned '0': PYTHONPATH=/home/gramisaam/mtre4820-final-project/build/node_example_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gramisaam/mtre4820-final-project/install/node_example_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/node_example_pkg build --build-base /home/gramisaam/mtre4820-final-project/build/node_example_pkg/build install --record /home/gramisaam/mtre4820-final-project/build/node_example_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,32 @@
+[0.971s] Invoking command in '/home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gramisaam/mtre4820-final-project/install/ml_model:/home/gramisaam/mtre4820-final-project/install/node_example_pkg:/home/gramisaam/rosbot_ws/install/rosbot_gazebo:/home/gramisaam/rosbot_ws/install/rosbot_controller:/home/gramisaam/rosbot_ws/install/rosbot_utils:/home/gramisaam/rosbot_ws/install/rosbot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot -- -j8 -l8
+[2.229s] Invoked command in '/home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gramisaam/mtre4820-final-project/install/ml_model:/home/gramisaam/mtre4820-final-project/install/node_example_pkg:/home/gramisaam/rosbot_ws/install/rosbot_gazebo:/home/gramisaam/rosbot_ws/install/rosbot_controller:/home/gramisaam/rosbot_ws/install/rosbot_utils:/home/gramisaam/rosbot_ws/install/rosbot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot -- -j8 -l8
+[2.257s] Invoking command in '/home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gramisaam/mtre4820-final-project/install/ml_model:/home/gramisaam/mtre4820-final-project/install/node_example_pkg:/home/gramisaam/rosbot_ws/install/rosbot_gazebo:/home/gramisaam/rosbot_ws/install/rosbot_controller:/home/gramisaam/rosbot_ws/install/rosbot_utils:/home/gramisaam/rosbot_ws/install/rosbot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot
+[2.279s] -- Install configuration: ""
+[2.280s] -- Up-to-date: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/urdf
+[2.280s] -- Up-to-date: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/urdf/rosbot.gazebo
+[2.280s] -- Up-to-date: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/urdf/rosbot.xacro
+[2.280s] -- Up-to-date: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/urdf/materials.xacro
+[2.281s] -- Up-to-date: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/meshes
+[2.281s] -- Up-to-date: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/meshes/upper.stl
+[2.281s] -- Up-to-date: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/meshes/astra.stl
+[2.281s] -- Up-to-date: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/meshes/rplidar.stl
+[2.281s] -- Up-to-date: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/meshes/wheel.stl
+[2.281s] -- Up-to-date: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/meshes/box.stl
+[2.282s] -- Up-to-date: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/launch
+[2.282s] -- Up-to-date: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/launch/rosbot.launch.py
+[2.282s] -- Up-to-date: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/ament_index/resource_index/package_run_dependencies/mtre4820_rosbot
+[2.282s] -- Up-to-date: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/ament_index/resource_index/parent_prefix_path/mtre4820_rosbot
+[2.282s] -- Up-to-date: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/environment/ament_prefix_path.sh
+[2.282s] -- Up-to-date: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/environment/ament_prefix_path.dsv
+[2.282s] -- Up-to-date: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/environment/path.sh
+[2.282s] -- Up-to-date: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/environment/path.dsv
+[2.282s] -- Up-to-date: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/local_setup.bash
+[2.283s] -- Up-to-date: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/local_setup.sh
+[2.283s] -- Up-to-date: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/local_setup.zsh
+[2.283s] -- Up-to-date: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/local_setup.dsv
+[2.283s] -- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/package.dsv
+[2.283s] -- Up-to-date: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/ament_index/resource_index/packages/mtre4820_rosbot
+[2.283s] -- Up-to-date: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/cmake/mtre4820_rosbotConfig.cmake
+[2.283s] -- Up-to-date: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/cmake/mtre4820_rosbotConfig-version.cmake
+[2.283s] -- Up-to-date: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/package.xml
+[2.294s] Invoked command in '/home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gramisaam/mtre4820-final-project/install/ml_model:/home/gramisaam/mtre4820-final-project/install/node_example_pkg:/home/gramisaam/rosbot_ws/install/rosbot_gazebo:/home/gramisaam/rosbot_ws/install/rosbot_controller:/home/gramisaam/rosbot_ws/install/rosbot_utils:/home/gramisaam/rosbot_ws/install/rosbot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot

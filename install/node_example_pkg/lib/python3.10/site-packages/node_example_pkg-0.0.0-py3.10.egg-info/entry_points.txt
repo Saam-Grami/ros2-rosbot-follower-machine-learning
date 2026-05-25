@@ -1,0 +1,3 @@
+[console_scripts]
+printer_node = node_example_pkg.printer_node:main
+

@@ -1,0 +1,24 @@
+[3.940s] Invoking command in '/home/gramisaam/mtre4820-final-project/src/ml_model': PYTHONPATH=/home/gramisaam/mtre4820-final-project/build/ml_model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gramisaam/mtre4820-final-project/install/ml_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ml_model build --build-base /home/gramisaam/mtre4820-final-project/build/ml_model/build install --record /home/gramisaam/mtre4820-final-project/build/ml_model/install.log --single-version-externally-managed install_data
+[5.130s] running egg_info
+[5.132s] writing ../../build/ml_model/ml_model.egg-info/PKG-INFO
+[5.132s] writing dependency_links to ../../build/ml_model/ml_model.egg-info/dependency_links.txt
+[5.132s] writing entry points to ../../build/ml_model/ml_model.egg-info/entry_points.txt
+[5.133s] writing requirements to ../../build/ml_model/ml_model.egg-info/requires.txt
+[5.133s] writing top-level names to ../../build/ml_model/ml_model.egg-info/top_level.txt
+[5.151s] reading manifest file '../../build/ml_model/ml_model.egg-info/SOURCES.txt'
+[5.151s] writing manifest file '../../build/ml_model/ml_model.egg-info/SOURCES.txt'
+[5.151s] running build
+[5.151s] running build_py
+[5.151s] copying ml_model/model_node.py -> /home/gramisaam/mtre4820-final-project/build/ml_model/build/lib/ml_model
+[5.152s] running install
+[5.152s] running install_lib
+[5.152s] copying /home/gramisaam/mtre4820-final-project/build/ml_model/build/lib/ml_model/model_node.py -> /home/gramisaam/mtre4820-final-project/install/ml_model/lib/python3.10/site-packages/ml_model
+[5.153s] byte-compiling /home/gramisaam/mtre4820-final-project/install/ml_model/lib/python3.10/site-packages/ml_model/model_node.py to model_node.cpython-310.pyc
+[5.155s] running install_data
+[5.155s] running install_egg_info
+[5.159s] removing '/home/gramisaam/mtre4820-final-project/install/ml_model/lib/python3.10/site-packages/ml_model-0.0.0-py3.10.egg-info' (and everything under it)
+[5.160s] Copying ../../build/ml_model/ml_model.egg-info to /home/gramisaam/mtre4820-final-project/install/ml_model/lib/python3.10/site-packages/ml_model-0.0.0-py3.10.egg-info
+[5.163s] running install_scripts
+[5.326s] Installing model_node script to /home/gramisaam/mtre4820-final-project/install/ml_model/lib/ml_model
+[5.327s] writing list of installed files to '/home/gramisaam/mtre4820-final-project/build/ml_model/install.log'
+[5.480s] Invoked command in '/home/gramisaam/mtre4820-final-project/src/ml_model' returned '0': PYTHONPATH=/home/gramisaam/mtre4820-final-project/build/ml_model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gramisaam/mtre4820-final-project/install/ml_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ml_model build --build-base /home/gramisaam/mtre4820-final-project/build/ml_model/build install --record /home/gramisaam/mtre4820-final-project/build/ml_model/install.log --single-version-externally-managed install_data

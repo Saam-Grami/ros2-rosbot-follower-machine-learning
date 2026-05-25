@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/ml_model/ml_model.egg-info/PKG-INFO
+writing dependency_links to ../../build/ml_model/ml_model.egg-info/dependency_links.txt
+writing entry points to ../../build/ml_model/ml_model.egg-info/entry_points.txt
+writing requirements to ../../build/ml_model/ml_model.egg-info/requires.txt
+writing top-level names to ../../build/ml_model/ml_model.egg-info/top_level.txt
+reading manifest file '../../build/ml_model/ml_model.egg-info/SOURCES.txt'
+writing manifest file '../../build/ml_model/ml_model.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ml_model/data_prep.py -> /home/gramisaam/mtre4820-final-project/build/ml_model/build/lib/ml_model
+running install
+running install_lib
+copying /home/gramisaam/mtre4820-final-project/build/ml_model/build/lib/ml_model/data_prep.py -> /home/gramisaam/mtre4820-final-project/install/ml_model/lib/python3.10/site-packages/ml_model
+byte-compiling /home/gramisaam/mtre4820-final-project/install/ml_model/lib/python3.10/site-packages/ml_model/data_prep.py to data_prep.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/gramisaam/mtre4820-final-project/install/ml_model/lib/python3.10/site-packages/ml_model-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ml_model/ml_model.egg-info to /home/gramisaam/mtre4820-final-project/install/ml_model/lib/python3.10/site-packages/ml_model-0.0.0-py3.10.egg-info
+running install_scripts
+Installing model_node script to /home/gramisaam/mtre4820-final-project/install/ml_model/lib/ml_model
+writing list of installed files to '/home/gramisaam/mtre4820-final-project/build/ml_model/install.log'

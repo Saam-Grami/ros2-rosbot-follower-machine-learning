@@ -1,0 +1,4 @@
+[console_scripts]
+ambulance_controller = ml_model.ambulance_controller:main
+model_node = ml_model.model_node:main
+

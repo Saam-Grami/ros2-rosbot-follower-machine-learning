@@ -1,0 +1,202 @@
+[0.639s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.640s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7aa381e23ee0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7aa381e23940>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7aa381e23940>>, mixin_verb=('build',))[0m
+[1.194s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[1.195s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[1.195s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[1.195s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[1.195s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[1.195s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[1.195s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/gramisaam/mtre4820-final-project'
+[1.196s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.197s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[1.197s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[1.197s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[1.197s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[1.197s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[1.197s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[1.197s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[1.197s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[1.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[1.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[1.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[1.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[1.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[1.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[1.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[1.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[1.282s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[1.283s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[1.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[1.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[1.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[1.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[1.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[1.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[1.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[1.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[1.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[1.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[1.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[1.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[1.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[1.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[1.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[1.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/build) by extension 'ignore'
+[1.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/build) ignored
+[1.286s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[1.286s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/install) by extension 'ignore'
+[1.286s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/install) ignored
+[1.286s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[1.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/log) by extension 'ignore'
+[1.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/log) ignored
+[1.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ml_model) by extensions ['ignore', 'ignore_ament_install']
+[1.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ml_model) by extension 'ignore'
+[1.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ml_model) by extension 'ignore_ament_install'
+[1.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ml_model) by extensions ['colcon_pkg']
+[1.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ml_model) by extension 'colcon_pkg'
+[1.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ml_model) by extensions ['colcon_meta']
+[1.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ml_model) by extension 'colcon_meta'
+[1.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ml_model) by extensions ['ros']
+[1.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ml_model) by extension 'ros'
+[1.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ml_model' with type 'ros.ament_python' and name 'ml_model'[0m
+[1.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mtre4820_rosbot) by extensions ['ignore', 'ignore_ament_install']
+[1.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mtre4820_rosbot) by extension 'ignore'
+[1.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mtre4820_rosbot) by extension 'ignore_ament_install'
+[1.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mtre4820_rosbot) by extensions ['colcon_pkg']
+[1.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mtre4820_rosbot) by extension 'colcon_pkg'
+[1.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mtre4820_rosbot) by extensions ['colcon_meta']
+[1.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mtre4820_rosbot) by extension 'colcon_meta'
+[1.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mtre4820_rosbot) by extensions ['ros']
+[1.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mtre4820_rosbot) by extension 'ros'
+[1.309s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/mtre4820_rosbot' with type 'ros.ament_cmake' and name 'mtre4820_rosbot'[0m
+[1.309s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[1.309s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[1.309s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[1.309s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[1.309s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[1.391s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[1.391s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[1.395s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 3 installed packages in /home/gramisaam/mtre4820-final-project/install[0m
+[1.397s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 16 installed packages in /home/gramisaam/rosbot_ws/install[0m
+[1.397s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 1 installed packages in /home/gramisaam/mtre4820-final-project/src/install[0m
+[1.401s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 477 installed packages in /opt/ros/humble[0m
+[1.408s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[1.543s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ml_model' build argument 'cmake_args' from command line to 'None'
+[1.543s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ml_model' build argument 'cmake_target' from command line to 'None'
+[1.543s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ml_model' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.543s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ml_model' build argument 'cmake_clean_cache' from command line to 'False'
+[1.543s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ml_model' build argument 'cmake_clean_first' from command line to 'False'
+[1.543s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ml_model' build argument 'cmake_force_configure' from command line to 'False'
+[1.543s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ml_model' build argument 'ament_cmake_args' from command line to 'None'
+[1.544s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ml_model' build argument 'catkin_cmake_args' from command line to 'None'
+[1.544s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ml_model' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.544s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ml_model' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gramisaam/mtre4820-final-project/build/ml_model', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gramisaam/mtre4820-final-project/install/ml_model', 'merge_install': False, 'path': '/home/gramisaam/mtre4820-final-project/src/ml_model', 'symlink_install': False, 'test_result_base': None}[0m
+[1.545s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mtre4820_rosbot' build argument 'cmake_args' from command line to 'None'
+[1.545s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mtre4820_rosbot' build argument 'cmake_target' from command line to 'None'
+[1.545s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mtre4820_rosbot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.545s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mtre4820_rosbot' build argument 'cmake_clean_cache' from command line to 'False'
+[1.545s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mtre4820_rosbot' build argument 'cmake_clean_first' from command line to 'False'
+[1.545s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mtre4820_rosbot' build argument 'cmake_force_configure' from command line to 'False'
+[1.545s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mtre4820_rosbot' build argument 'ament_cmake_args' from command line to 'None'
+[1.545s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mtre4820_rosbot' build argument 'catkin_cmake_args' from command line to 'None'
+[1.546s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mtre4820_rosbot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.546s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'mtre4820_rosbot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot', 'merge_install': False, 'path': '/home/gramisaam/mtre4820-final-project/src/mtre4820_rosbot', 'symlink_install': False, 'test_result_base': None}[0m
+[1.546s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[1.548s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[1.548s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/gramisaam/mtre4820-final-project/src/ml_model' with build type 'ament_python'
+[1.549s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ml_model', 'ament_prefix_path')
+[1.554s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.555s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/gramisaam/mtre4820-final-project/install/ml_model/share/ml_model/hook/ament_prefix_path.ps1'
+[1.557s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/gramisaam/mtre4820-final-project/install/ml_model/share/ml_model/hook/ament_prefix_path.dsv'
+[1.559s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/gramisaam/mtre4820-final-project/install/ml_model/share/ml_model/hook/ament_prefix_path.sh'
+[1.561s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.562s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.575s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/gramisaam/mtre4820-final-project/src/mtre4820_rosbot' with build type 'ament_cmake'
+[1.575s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/gramisaam/mtre4820-final-project/src/mtre4820_rosbot'
+[1.576s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.576s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[2.146s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/gramisaam/mtre4820-final-project/src/ml_model'
+[2.147s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.147s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[2.174s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gramisaam/mtre4820-final-project/install/node_example_pkg:/home/gramisaam/mtre4820-final-project/install/ml_model:/home/gramisaam/rosbot_ws/install/rosbot_gazebo:/home/gramisaam/rosbot_ws/install/rosbot_controller:/home/gramisaam/rosbot_ws/install/rosbot_utils:/home/gramisaam/rosbot_ws/install/rosbot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot -- -j8 -l8[0m
+[2.249s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gramisaam/mtre4820-final-project/install/node_example_pkg:/home/gramisaam/mtre4820-final-project/install/ml_model:/home/gramisaam/rosbot_ws/install/rosbot_gazebo:/home/gramisaam/rosbot_ws/install/rosbot_controller:/home/gramisaam/rosbot_ws/install/rosbot_utils:/home/gramisaam/rosbot_ws/install/rosbot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot -- -j8 -l8[0m
+[2.266s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gramisaam/mtre4820-final-project/install/node_example_pkg:/home/gramisaam/mtre4820-final-project/install/ml_model:/home/gramisaam/rosbot_ws/install/rosbot_gazebo:/home/gramisaam/rosbot_ws/install/rosbot_controller:/home/gramisaam/rosbot_ws/install/rosbot_utils:/home/gramisaam/rosbot_ws/install/rosbot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot[0m
+[2.286s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(mtre4820_rosbot)
+[2.287s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gramisaam/mtre4820-final-project/install/node_example_pkg:/home/gramisaam/mtre4820-final-project/install/ml_model:/home/gramisaam/rosbot_ws/install/rosbot_gazebo:/home/gramisaam/rosbot_ws/install/rosbot_controller:/home/gramisaam/rosbot_ws/install/rosbot_utils:/home/gramisaam/rosbot_ws/install/rosbot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot[0m
+[2.289s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot' for CMake module files
+[2.290s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot' for CMake config files
+[2.290s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mtre4820_rosbot', 'cmake_prefix_path')
+[2.291s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/hook/cmake_prefix_path.ps1'
+[2.291s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/hook/cmake_prefix_path.dsv'
+[2.292s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/hook/cmake_prefix_path.sh'
+[2.293s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/bin'
+[2.294s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/lib/pkgconfig/mtre4820_rosbot.pc'
+[2.294s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/lib/python3.10/site-packages'
+[2.294s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/bin'
+[2.295s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/package.ps1'
+[2.296s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/package.dsv'
+[2.296s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/package.sh'
+[2.299s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/package.bash'
+[2.300s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/package.zsh'
+[2.302s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/colcon-core/packages/mtre4820_rosbot)
+[2.303s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(mtre4820_rosbot)
+[2.303s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot' for CMake module files
+[2.304s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot' for CMake config files
+[2.304s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mtre4820_rosbot', 'cmake_prefix_path')
+[2.304s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/hook/cmake_prefix_path.ps1'
+[2.305s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/hook/cmake_prefix_path.dsv'
+[2.305s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/hook/cmake_prefix_path.sh'
+[2.306s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/bin'
+[2.306s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/lib/pkgconfig/mtre4820_rosbot.pc'
+[2.306s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/lib/python3.10/site-packages'
+[2.307s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/bin'
+[2.307s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/package.ps1'
+[2.308s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/package.dsv'
+[2.308s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/package.sh'
+[2.309s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/package.bash'
+[2.310s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/package.zsh'
+[2.310s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/colcon-core/packages/mtre4820_rosbot)
+[2.768s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/gramisaam/mtre4820-final-project/src/ml_model': PYTHONPATH=/home/gramisaam/mtre4820-final-project/build/ml_model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gramisaam/mtre4820-final-project/install/ml_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ml_model build --build-base /home/gramisaam/mtre4820-final-project/build/ml_model/build install --record /home/gramisaam/mtre4820-final-project/build/ml_model/install.log --single-version-externally-managed install_data[0m
+[3.271s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/gramisaam/mtre4820-final-project/install/ml_model' for CMake module files
+[3.271s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/gramisaam/mtre4820-final-project/src/ml_model' returned '0': PYTHONPATH=/home/gramisaam/mtre4820-final-project/build/ml_model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gramisaam/mtre4820-final-project/install/ml_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ml_model build --build-base /home/gramisaam/mtre4820-final-project/build/ml_model/build install --record /home/gramisaam/mtre4820-final-project/build/ml_model/install.log --single-version-externally-managed install_data[0m
+[3.272s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/gramisaam/mtre4820-final-project/install/ml_model' for CMake config files
+[3.273s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/gramisaam/mtre4820-final-project/install/ml_model/lib'
+[3.273s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/gramisaam/mtre4820-final-project/install/ml_model/bin'
+[3.273s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/gramisaam/mtre4820-final-project/install/ml_model/lib/pkgconfig/ml_model.pc'
+[3.274s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/gramisaam/mtre4820-final-project/install/ml_model/lib/python3.10/site-packages'
+[3.274s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ml_model', 'pythonpath')
+[3.274s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/gramisaam/mtre4820-final-project/install/ml_model/share/ml_model/hook/pythonpath.ps1'
+[3.275s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/gramisaam/mtre4820-final-project/install/ml_model/share/ml_model/hook/pythonpath.dsv'
+[3.276s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/gramisaam/mtre4820-final-project/install/ml_model/share/ml_model/hook/pythonpath.sh'
+[3.277s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/gramisaam/mtre4820-final-project/install/ml_model/bin'
+[3.277s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ml_model)
+[3.277s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/gramisaam/mtre4820-final-project/install/ml_model/share/ml_model/package.ps1'
+[3.278s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/gramisaam/mtre4820-final-project/install/ml_model/share/ml_model/package.dsv'
+[3.279s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/gramisaam/mtre4820-final-project/install/ml_model/share/ml_model/package.sh'
+[3.279s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/gramisaam/mtre4820-final-project/install/ml_model/share/ml_model/package.bash'
+[3.280s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/gramisaam/mtre4820-final-project/install/ml_model/share/ml_model/package.zsh'
+[3.280s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/gramisaam/mtre4820-final-project/install/ml_model/share/colcon-core/packages/ml_model)
+[3.282s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[3.283s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[3.283s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[3.284s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[3.409s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.410s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.410s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.410s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[3.410s] [34mcolcon.colcon_notification.desktop_notification.notify2[0m [1;30mDEBUG[0m [32mFailed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory[0m
+[3.411s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[3.411s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/gramisaam/mtre4820-final-project/install/local_setup.ps1'
+[3.413s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/gramisaam/mtre4820-final-project/install/_local_setup_util_ps1.py'
+[3.415s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/gramisaam/mtre4820-final-project/install/setup.ps1'
+[3.417s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/gramisaam/mtre4820-final-project/install/local_setup.sh'
+[3.418s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/gramisaam/mtre4820-final-project/install/_local_setup_util_sh.py'
+[3.419s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/gramisaam/mtre4820-final-project/install/setup.sh'
+[3.423s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/gramisaam/mtre4820-final-project/install/local_setup.bash'
+[3.424s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/gramisaam/mtre4820-final-project/install/setup.bash'
+[3.427s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/gramisaam/mtre4820-final-project/install/local_setup.zsh'
+[3.428s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/gramisaam/mtre4820-final-project/install/setup.zsh'

@@ -1,0 +1,25 @@
+[1.142s] Invoking command in '/home/gramisaam/mtre4820-final-project/src/ml_model': PYTHONPATH=/home/gramisaam/mtre4820-final-project/build/ml_model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gramisaam/mtre4820-final-project/install/ml_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ml_model build --build-base /home/gramisaam/mtre4820-final-project/build/ml_model/build install --record /home/gramisaam/mtre4820-final-project/build/ml_model/install.log --single-version-externally-managed install_data
+[1.535s] running egg_info
+[1.536s] writing ../../build/ml_model/ml_model.egg-info/PKG-INFO
+[1.539s] writing dependency_links to ../../build/ml_model/ml_model.egg-info/dependency_links.txt
+[1.539s] writing entry points to ../../build/ml_model/ml_model.egg-info/entry_points.txt
+[1.539s] writing requirements to ../../build/ml_model/ml_model.egg-info/requires.txt
+[1.539s] writing top-level names to ../../build/ml_model/ml_model.egg-info/top_level.txt
+[1.543s] reading manifest file '../../build/ml_model/ml_model.egg-info/SOURCES.txt'
+[1.544s] writing manifest file '../../build/ml_model/ml_model.egg-info/SOURCES.txt'
+[1.545s] running build
+[1.545s] running build_py
+[1.545s] copying ml_model/ambulance_controller.py -> /home/gramisaam/mtre4820-final-project/build/ml_model/build/lib/ml_model
+[1.546s] running install
+[1.546s] running install_lib
+[1.548s] copying /home/gramisaam/mtre4820-final-project/build/ml_model/build/lib/ml_model/ambulance_controller.py -> /home/gramisaam/mtre4820-final-project/install/ml_model/lib/python3.10/site-packages/ml_model
+[1.549s] byte-compiling /home/gramisaam/mtre4820-final-project/install/ml_model/lib/python3.10/site-packages/ml_model/ambulance_controller.py to ambulance_controller.cpython-310.pyc
+[1.557s] running install_data
+[1.558s] running install_egg_info
+[1.560s] removing '/home/gramisaam/mtre4820-final-project/install/ml_model/lib/python3.10/site-packages/ml_model-0.0.0-py3.10.egg-info' (and everything under it)
+[1.561s] Copying ../../build/ml_model/ml_model.egg-info to /home/gramisaam/mtre4820-final-project/install/ml_model/lib/python3.10/site-packages/ml_model-0.0.0-py3.10.egg-info
+[1.562s] running install_scripts
+[1.590s] Installing ambulance_controller script to /home/gramisaam/mtre4820-final-project/install/ml_model/lib/ml_model
+[1.591s] Installing model_node script to /home/gramisaam/mtre4820-final-project/install/ml_model/lib/ml_model
+[1.592s] writing list of installed files to '/home/gramisaam/mtre4820-final-project/build/ml_model/install.log'
+[1.624s] Invoked command in '/home/gramisaam/mtre4820-final-project/src/ml_model' returned '0': PYTHONPATH=/home/gramisaam/mtre4820-final-project/build/ml_model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gramisaam/mtre4820-final-project/install/ml_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ml_model build --build-base /home/gramisaam/mtre4820-final-project/build/ml_model/build install --record /home/gramisaam/mtre4820-final-project/build/ml_model/install.log --single-version-externally-managed install_data

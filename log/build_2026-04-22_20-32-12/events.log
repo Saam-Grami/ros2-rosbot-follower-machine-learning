@@ -1,0 +1,464 @@
+[0.000000] (-) TimerEvent: {}
+[0.000143] (mtre4820_rosbot) JobQueued: {'identifier': 'mtre4820_rosbot', 'dependencies': OrderedDict()}
+[0.000881] (mtre4820_rosbot) JobStarted: {'identifier': 'mtre4820_rosbot'}
+[0.009588] (mtre4820_rosbot) JobProgress: {'identifier': 'mtre4820_rosbot', 'progress': 'cmake'}
+[0.010947] (mtre4820_rosbot) Command: {'cmd': ['/usr/bin/cmake', '/home/gramisaam/mtre4820-final-project/src/mtre4820_rosbot', '-DCMAKE_INSTALL_PREFIX=/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot'], 'cwd': '/home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/opt/ros/humble/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/gramisaam/rosbot_ws/install/rosbot_description/share:/home/gramisaam/rosbot_ws/install/open_manipulator_x_description/share:/home/gramisaam/rosbot_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models:/home/gramisaam/rosbot_ws/install/husarion_components_description/share:/opt/ros/humble/share:/opt/ros/humble/share/as2_gazebo_assets/worlds:/opt/ros/humble/share/as2_gazebo_assets/models'), ('USER', 'gramisaam'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/gramisaam/rosbot_ws/install/rosbot_hardware_interfaces/lib:/home/gramisaam/rosbot_ws/install/mecanum_drive_controller/lib:/home/gramisaam/rosbot_ws/install/dynamixel_hardware_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/gramisaam'), ('OLDPWD', '/home/gramisaam/mtre4820-final-project/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('ROS_IP', '10.100.155.136'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gramisaam/mtre4820-final-project/install:/home/gramisaam/rosbot_ws/install:/home/gramisaam/mtre4820-final-project/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gramisaam'), ('NAME', 'LAPTOP-4OTR9SNP'), ('WSL_INTEROP', '/run/WSL/1626_interop'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/gramisaam/rosbot_ws/install/rosbot_description/share:/home/gramisaam/rosbot_ws/install/open_manipulator_x_description/share:/home/gramisaam/rosbot_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models:/home/gramisaam/rosbot_ws/install/husarion_components_description/share:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/gramisaam/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2025b/runtime/win64:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Users/acrfa/OneDrive - Kennesaw State University/Classes/MTRE 3610/MTRE 3610 MATLAB/bin:/mnt/c/Program Files (x86)/Pololu/USB AVR Programmer v2/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/acrfa/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/acrfa/AppData/Local/Muse Hub/lib:/mnt/c/Users/acrfa/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/acrfa/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('WT_SESSION', '64ba4ec5-e1a1-41c7-97aa-d0efbb8d7691'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('HUSARION_ROS_BUILD_TYPE', 'simulation'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/gramisaam/mtre4820-final-project/install/rosbot_description:/home/gramisaam/rosbot_ws/install/rosbot:/home/gramisaam/rosbot_ws/install/rosbot_gazebo:/home/gramisaam/rosbot_ws/install/rosbot_controller:/home/gramisaam/rosbot_ws/install/rosbot_utils:/home/gramisaam/rosbot_ws/install/rosbot_localization:/home/gramisaam/rosbot_ws/install/rosbot_joy:/home/gramisaam/rosbot_ws/install/rosbot_hardware_interfaces:/home/gramisaam/rosbot_ws/install/open_manipulator_x_moveit:/home/gramisaam/rosbot_ws/install/rosbot_description:/home/gramisaam/rosbot_ws/install/rosbot_bringup:/home/gramisaam/rosbot_ws/install/open_manipulator_x_joy:/home/gramisaam/rosbot_ws/install/open_manipulator_x_description:/home/gramisaam/rosbot_ws/install/mecanum_drive_controller:/home/gramisaam/rosbot_ws/install/husarion_gz_worlds:/home/gramisaam/rosbot_ws/install/husarion_components_description:/home/gramisaam/rosbot_ws/install/dynamixel_hardware_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:e9dc0933-c925-4421-a0f0-8d9fc8c6f3dd'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/gramisaam/rosbot_ws/install/rosbot_description/share:/home/gramisaam/rosbot_ws/install/open_manipulator_x_description/share:/home/gramisaam/rosbot_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models:/home/gramisaam/rosbot_ws/install/husarion_components_description/share:/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/opt/ros/humble/share'), ('GZ_VERSION', 'fortress'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gramisaam/rosbot_ws/build/rosbot_gazebo:/home/gramisaam/rosbot_ws/install/rosbot_gazebo/lib/python3.10/site-packages:/home/gramisaam/rosbot_ws/build/rosbot_controller:/home/gramisaam/rosbot_ws/install/rosbot_controller/lib/python3.10/site-packages:/home/gramisaam/rosbot_ws/build/rosbot_utils:/home/gramisaam/rosbot_ws/install/rosbot_utils/lib/python3.10/site-packages:/home/gramisaam/rosbot_ws/install/rosbot_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('VTE_VERSION', '6800'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/gramisaam/mtre4820-final-project/install/rosbot_description:/home/gramisaam/rosbot_ws/install/rosbot:/home/gramisaam/rosbot_ws/install/rosbot_localization:/home/gramisaam/rosbot_ws/install/rosbot_joy:/home/gramisaam/rosbot_ws/install/rosbot_hardware_interfaces:/home/gramisaam/rosbot_ws/install/open_manipulator_x_moveit:/home/gramisaam/rosbot_ws/install/rosbot_description:/home/gramisaam/rosbot_ws/install/open_manipulator_x_joy:/home/gramisaam/rosbot_ws/install/open_manipulator_x_description:/home/gramisaam/rosbot_ws/install/mecanum_drive_controller:/home/gramisaam/rosbot_ws/install/husarion_gz_worlds:/home/gramisaam/rosbot_ws/install/husarion_components_description:/home/gramisaam/rosbot_ws/install/dynamixel_hardware_interface:/home/gramisaam/rosbot_ws/install/rosbot_gazebo:/home/gramisaam/rosbot_ws/install/rosbot_controller:/home/gramisaam/rosbot_ws/install/rosbot_utils:/home/gramisaam/rosbot_ws/install/rosbot_bringup:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.099721] (-) TimerEvent: {}
+[0.142651] (mtre4820_rosbot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199868] (-) TimerEvent: {}
+[0.300265] (-) TimerEvent: {}
+[0.400602] (-) TimerEvent: {}
+[0.500896] (-) TimerEvent: {}
+[0.516572] (mtre4820_rosbot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.601039] (-) TimerEvent: {}
+[0.701449] (-) TimerEvent: {}
+[0.798448] (mtre4820_rosbot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.801522] (-) TimerEvent: {}
+[0.901771] (-) TimerEvent: {}
+[0.944129] (mtre4820_rosbot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.949677] (mtre4820_rosbot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.950164] (mtre4820_rosbot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.950651] (mtre4820_rosbot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.953153] (mtre4820_rosbot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.002010] (-) TimerEvent: {}
+[1.102527] (-) TimerEvent: {}
+[1.106744] (mtre4820_rosbot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.112823] (mtre4820_rosbot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.113410] (mtre4820_rosbot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.114289] (mtre4820_rosbot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.119257] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.202695] (-) TimerEvent: {}
+[1.267310] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.302796] (-) TimerEvent: {}
+[1.373150] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)\n'}
+[1.375553] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[1.402955] (-) TimerEvent: {}
+[1.503293] (-) TimerEvent: {}
+[1.525161] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.531193] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.539828] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.551942] (mtre4820_rosbot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.570039] (mtre4820_rosbot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.603494] (-) TimerEvent: {}
+[1.673580] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.674604] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.674706] (mtre4820_rosbot) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.703646] (-) TimerEvent: {}
+[1.720341] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.723631] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.803820] (-) TimerEvent: {}
+[1.904141] (-) TimerEvent: {}
+[2.004447] (-) TimerEvent: {}
+[2.104790] (-) TimerEvent: {}
+[2.205135] (-) TimerEvent: {}
+[2.305514] (-) TimerEvent: {}
+[2.405824] (-) TimerEvent: {}
+[2.506176] (-) TimerEvent: {}
+[2.606548] (-) TimerEvent: {}
+[2.706866] (-) TimerEvent: {}
+[2.779443] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.806957] (-) TimerEvent: {}
+[2.907315] (-) TimerEvent: {}
+[3.007599] (-) TimerEvent: {}
+[3.107944] (-) TimerEvent: {}
+[3.208332] (-) TimerEvent: {}
+[3.308716] (-) TimerEvent: {}
+[3.409050] (-) TimerEvent: {}
+[3.509358] (-) TimerEvent: {}
+[3.609733] (-) TimerEvent: {}
+[3.710085] (-) TimerEvent: {}
+[3.810424] (-) TimerEvent: {}
+[3.888227] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.910525] (-) TimerEvent: {}
+[4.010874] (-) TimerEvent: {}
+[4.111226] (-) TimerEvent: {}
+[4.211535] (-) TimerEvent: {}
+[4.311838] (-) TimerEvent: {}
+[4.412114] (-) TimerEvent: {}
+[4.512463] (-) TimerEvent: {}
+[4.612864] (-) TimerEvent: {}
+[4.713266] (-) TimerEvent: {}
+[4.813686] (-) TimerEvent: {}
+[4.914005] (-) TimerEvent: {}
+[5.014286] (-) TimerEvent: {}
+[5.114596] (-) TimerEvent: {}
+[5.214911] (-) TimerEvent: {}
+[5.315245] (-) TimerEvent: {}
+[5.415593] (-) TimerEvent: {}
+[5.516001] (-) TimerEvent: {}
+[5.616488] (-) TimerEvent: {}
+[5.716919] (-) TimerEvent: {}
+[5.817257] (-) TimerEvent: {}
+[5.914966] (mtre4820_rosbot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.917312] (-) TimerEvent: {}
+[5.924458] (mtre4820_rosbot) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.017427] (-) TimerEvent: {}
+[6.065198] (mtre4820_rosbot) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.065503] (mtre4820_rosbot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.117539] (-) TimerEvent: {}
+[6.197178] (mtre4820_rosbot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.198057] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.217675] (-) TimerEvent: {}
+[6.318185] (-) TimerEvent: {}
+[6.418509] (-) TimerEvent: {}
+[6.518843] (-) TimerEvent: {}
+[6.619210] (-) TimerEvent: {}
+[6.719518] (-) TimerEvent: {}
+[6.819851] (-) TimerEvent: {}
+[6.920205] (-) TimerEvent: {}
+[7.020565] (-) TimerEvent: {}
+[7.120886] (-) TimerEvent: {}
+[7.221187] (-) TimerEvent: {}
+[7.321585] (-) TimerEvent: {}
+[7.394524] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[7.404807] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[7.406070] (mtre4820_rosbot) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[7.419159] (mtre4820_rosbot) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[7.421785] (-) TimerEvent: {}
+[7.522315] (-) TimerEvent: {}
+[7.568862] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[7.622528] (-) TimerEvent: {}
+[7.624447] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[7.645650] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[7.675475] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[7.722636] (-) TimerEvent: {}
+[7.822956] (-) TimerEvent: {}
+[7.923223] (-) TimerEvent: {}
+[8.005969] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[8.011575] (mtre4820_rosbot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[8.017718] (mtre4820_rosbot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[8.018961] (mtre4820_rosbot) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[8.019214] (mtre4820_rosbot) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[8.023281] (-) TimerEvent: {}
+[8.024164] (mtre4820_rosbot) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[8.037490] (mtre4820_rosbot) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[8.073776] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[8.123465] (-) TimerEvent: {}
+[8.223869] (-) TimerEvent: {}
+[8.324223] (-) TimerEvent: {}
+[8.423338] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[8.424263] (-) TimerEvent: {}
+[8.431101] (mtre4820_rosbot) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[8.524412] (-) TimerEvent: {}
+[8.624851] (-) TimerEvent: {}
+[8.725163] (-) TimerEvent: {}
+[8.749521] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[8.749768] (mtre4820_rosbot) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[8.825295] (-) TimerEvent: {}
+[8.925656] (-) TimerEvent: {}
+[9.026027] (-) TimerEvent: {}
+[9.066663] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[9.066815] (mtre4820_rosbot) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[9.126172] (-) TimerEvent: {}
+[9.226540] (-) TimerEvent: {}
+[9.326881] (-) TimerEvent: {}
+[9.370951] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[9.371141] (mtre4820_rosbot) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[9.426989] (-) TimerEvent: {}
+[9.527330] (-) TimerEvent: {}
+[9.627712] (-) TimerEvent: {}
+[9.696820] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[9.696983] (mtre4820_rosbot) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[9.727838] (-) TimerEvent: {}
+[9.828267] (-) TimerEvent: {}
+[9.928637] (-) TimerEvent: {}
+[10.014643] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[10.014894] (mtre4820_rosbot) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[10.028772] (-) TimerEvent: {}
+[10.129136] (-) TimerEvent: {}
+[10.229449] (-) TimerEvent: {}
+[10.327749] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[10.329541] (-) TimerEvent: {}
+[10.429913] (-) TimerEvent: {}
+[10.530280] (-) TimerEvent: {}
+[10.630608] (-) TimerEvent: {}
+[10.731016] (-) TimerEvent: {}
+[10.831356] (-) TimerEvent: {}
+[10.931758] (-) TimerEvent: {}
+[11.032071] (-) TimerEvent: {}
+[11.132409] (-) TimerEvent: {}
+[11.232822] (-) TimerEvent: {}
+[11.333167] (-) TimerEvent: {}
+[11.433535] (-) TimerEvent: {}
+[11.533925] (-) TimerEvent: {}
+[11.634240] (-) TimerEvent: {}
+[11.734584] (-) TimerEvent: {}
+[11.834933] (-) TimerEvent: {}
+[11.935297] (-) TimerEvent: {}
+[12.035599] (-) TimerEvent: {}
+[12.135884] (-) TimerEvent: {}
+[12.236195] (-) TimerEvent: {}
+[12.336527] (-) TimerEvent: {}
+[12.436999] (-) TimerEvent: {}
+[12.537321] (-) TimerEvent: {}
+[12.637651] (-) TimerEvent: {}
+[12.737972] (-) TimerEvent: {}
+[12.838528] (-) TimerEvent: {}
+[12.938854] (-) TimerEvent: {}
+[13.039181] (-) TimerEvent: {}
+[13.139561] (-) TimerEvent: {}
+[13.240146] (-) TimerEvent: {}
+[13.340571] (-) TimerEvent: {}
+[13.441185] (-) TimerEvent: {}
+[13.541541] (-) TimerEvent: {}
+[13.642141] (-) TimerEvent: {}
+[13.742709] (-) TimerEvent: {}
+[13.843059] (-) TimerEvent: {}
+[13.943431] (-) TimerEvent: {}
+[14.043771] (-) TimerEvent: {}
+[14.144181] (-) TimerEvent: {}
+[14.244543] (-) TimerEvent: {}
+[14.345008] (-) TimerEvent: {}
+[14.446033] (-) TimerEvent: {}
+[14.546432] (-) TimerEvent: {}
+[14.646897] (-) TimerEvent: {}
+[14.747347] (-) TimerEvent: {}
+[14.847838] (-) TimerEvent: {}
+[14.948431] (-) TimerEvent: {}
+[15.048848] (-) TimerEvent: {}
+[15.149249] (-) TimerEvent: {}
+[15.249787] (-) TimerEvent: {}
+[15.350402] (-) TimerEvent: {}
+[15.450949] (-) TimerEvent: {}
+[15.551435] (-) TimerEvent: {}
+[15.651951] (-) TimerEvent: {}
+[15.752375] (-) TimerEvent: {}
+[15.852784] (-) TimerEvent: {}
+[15.953252] (-) TimerEvent: {}
+[16.053720] (-) TimerEvent: {}
+[16.154450] (-) TimerEvent: {}
+[16.254722] (-) TimerEvent: {}
+[16.355051] (-) TimerEvent: {}
+[16.455373] (-) TimerEvent: {}
+[16.555702] (-) TimerEvent: {}
+[16.656033] (-) TimerEvent: {}
+[16.756393] (-) TimerEvent: {}
+[16.856706] (-) TimerEvent: {}
+[16.957085] (-) TimerEvent: {}
+[17.057501] (-) TimerEvent: {}
+[17.157903] (-) TimerEvent: {}
+[17.258259] (-) TimerEvent: {}
+[17.358539] (-) TimerEvent: {}
+[17.458886] (-) TimerEvent: {}
+[17.559199] (-) TimerEvent: {}
+[17.659501] (-) TimerEvent: {}
+[17.759865] (-) TimerEvent: {}
+[17.860182] (-) TimerEvent: {}
+[17.960492] (-) TimerEvent: {}
+[18.060898] (-) TimerEvent: {}
+[18.161320] (-) TimerEvent: {}
+[18.261830] (-) TimerEvent: {}
+[18.362188] (-) TimerEvent: {}
+[18.462521] (-) TimerEvent: {}
+[18.562883] (-) TimerEvent: {}
+[18.663198] (-) TimerEvent: {}
+[18.763487] (-) TimerEvent: {}
+[18.863740] (-) TimerEvent: {}
+[18.964067] (-) TimerEvent: {}
+[19.064449] (-) TimerEvent: {}
+[19.164765] (-) TimerEvent: {}
+[19.265069] (-) TimerEvent: {}
+[19.365397] (-) TimerEvent: {}
+[19.465813] (-) TimerEvent: {}
+[19.566078] (-) TimerEvent: {}
+[19.666429] (-) TimerEvent: {}
+[19.766758] (-) TimerEvent: {}
+[19.867059] (-) TimerEvent: {}
+[19.967502] (-) TimerEvent: {}
+[20.067804] (-) TimerEvent: {}
+[20.168140] (-) TimerEvent: {}
+[20.268522] (-) TimerEvent: {}
+[20.368822] (-) TimerEvent: {}
+[20.469149] (-) TimerEvent: {}
+[20.569529] (-) TimerEvent: {}
+[20.669868] (-) TimerEvent: {}
+[20.770193] (-) TimerEvent: {}
+[20.870534] (-) TimerEvent: {}
+[20.970882] (-) TimerEvent: {}
+[21.071152] (-) TimerEvent: {}
+[21.171472] (-) TimerEvent: {}
+[21.271863] (-) TimerEvent: {}
+[21.372178] (-) TimerEvent: {}
+[21.472544] (-) TimerEvent: {}
+[21.572916] (-) TimerEvent: {}
+[21.673272] (-) TimerEvent: {}
+[21.773540] (-) TimerEvent: {}
+[21.873817] (-) TimerEvent: {}
+[21.974147] (-) TimerEvent: {}
+[22.074459] (-) TimerEvent: {}
+[22.174997] (-) TimerEvent: {}
+[22.275364] (-) TimerEvent: {}
+[22.375689] (-) TimerEvent: {}
+[22.476035] (-) TimerEvent: {}
+[22.576501] (-) TimerEvent: {}
+[22.676882] (-) TimerEvent: {}
+[22.777269] (-) TimerEvent: {}
+[22.877735] (-) TimerEvent: {}
+[22.978056] (-) TimerEvent: {}
+[23.078392] (-) TimerEvent: {}
+[23.178684] (-) TimerEvent: {}
+[23.278982] (-) TimerEvent: {}
+[23.379303] (-) TimerEvent: {}
+[23.479627] (-) TimerEvent: {}
+[23.579987] (-) TimerEvent: {}
+[23.680352] (-) TimerEvent: {}
+[23.780713] (-) TimerEvent: {}
+[23.881072] (-) TimerEvent: {}
+[23.981402] (-) TimerEvent: {}
+[24.081836] (-) TimerEvent: {}
+[24.182213] (-) TimerEvent: {}
+[24.282563] (-) TimerEvent: {}
+[24.382927] (-) TimerEvent: {}
+[24.483263] (-) TimerEvent: {}
+[24.583523] (-) TimerEvent: {}
+[24.683822] (-) TimerEvent: {}
+[24.784085] (-) TimerEvent: {}
+[24.884378] (-) TimerEvent: {}
+[24.984680] (-) TimerEvent: {}
+[25.085035] (-) TimerEvent: {}
+[25.185390] (-) TimerEvent: {}
+[25.285814] (-) TimerEvent: {}
+[25.386151] (-) TimerEvent: {}
+[25.486560] (-) TimerEvent: {}
+[25.586985] (-) TimerEvent: {}
+[25.687298] (-) TimerEvent: {}
+[25.787645] (-) TimerEvent: {}
+[25.887927] (-) TimerEvent: {}
+[25.988226] (-) TimerEvent: {}
+[26.088595] (-) TimerEvent: {}
+[26.189102] (-) TimerEvent: {}
+[26.289395] (-) TimerEvent: {}
+[26.389692] (-) TimerEvent: {}
+[26.490020] (-) TimerEvent: {}
+[26.590363] (-) TimerEvent: {}
+[26.690751] (-) TimerEvent: {}
+[26.791122] (-) TimerEvent: {}
+[26.891419] (-) TimerEvent: {}
+[26.898234] (mtre4820_rosbot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[26.901776] (mtre4820_rosbot) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[26.902254] (mtre4820_rosbot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[26.991566] (-) TimerEvent: {}
+[27.091928] (-) TimerEvent: {}
+[27.192213] (-) TimerEvent: {}
+[27.292542] (-) TimerEvent: {}
+[27.392899] (-) TimerEvent: {}
+[27.493161] (-) TimerEvent: {}
+[27.593533] (-) TimerEvent: {}
+[27.693846] (-) TimerEvent: {}
+[27.794191] (-) TimerEvent: {}
+[27.855694] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[27.894257] (-) TimerEvent: {}
+[27.994581] (-) TimerEvent: {}
+[28.094896] (-) TimerEvent: {}
+[28.195170] (-) TimerEvent: {}
+[28.295461] (-) TimerEvent: {}
+[28.395747] (-) TimerEvent: {}
+[28.496037] (-) TimerEvent: {}
+[28.596335] (-) TimerEvent: {}
+[28.696744] (-) TimerEvent: {}
+[28.797161] (-) TimerEvent: {}
+[28.812128] (mtre4820_rosbot) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[28.816457] (mtre4820_rosbot) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[28.827714] (mtre4820_rosbot) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[28.871134] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[28.897309] (-) TimerEvent: {}
+[28.915330] (mtre4820_rosbot) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[28.927498] (mtre4820_rosbot) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[28.964651] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[28.967792] (mtre4820_rosbot) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[28.968062] (mtre4820_rosbot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[28.997368] (-) TimerEvent: {}
+[29.097698] (-) TimerEvent: {}
+[29.198017] (-) TimerEvent: {}
+[29.298384] (-) TimerEvent: {}
+[29.398731] (-) TimerEvent: {}
+[29.499055] (-) TimerEvent: {}
+[29.599436] (-) TimerEvent: {}
+[29.699770] (-) TimerEvent: {}
+[29.800138] (-) TimerEvent: {}
+[29.900524] (-) TimerEvent: {}
+[29.918823] (mtre4820_rosbot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[29.923021] (mtre4820_rosbot) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[29.937449] (mtre4820_rosbot) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[29.971837] (mtre4820_rosbot) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[29.975274] (mtre4820_rosbot) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[29.975611] (mtre4820_rosbot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[30.000657] (-) TimerEvent: {}
+[30.011913] (mtre4820_rosbot) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[30.042238] (mtre4820_rosbot) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[30.043547] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[30.100763] (-) TimerEvent: {}
+[30.113200] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[30.113663] (mtre4820_rosbot) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[30.116266] (mtre4820_rosbot) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[30.116630] (mtre4820_rosbot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[30.116885] (mtre4820_rosbot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[30.120405] (mtre4820_rosbot) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[30.120721] (mtre4820_rosbot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[30.200884] (-) TimerEvent: {}
+[30.301206] (-) TimerEvent: {}
+[30.401533] (-) TimerEvent: {}
+[30.501834] (-) TimerEvent: {}
+[30.602138] (-) TimerEvent: {}
+[30.702495] (-) TimerEvent: {}
+[30.802941] (-) TimerEvent: {}
+[30.903285] (-) TimerEvent: {}
+[31.003639] (-) TimerEvent: {}
+[31.103974] (-) TimerEvent: {}
+[31.204350] (-) TimerEvent: {}
+[31.247721] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[31.256236] (mtre4820_rosbot) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[31.268884] (mtre4820_rosbot) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[31.303797] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[31.304451] (-) TimerEvent: {}
+[31.309540] (mtre4820_rosbot) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[31.325562] (mtre4820_rosbot) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[31.359268] (mtre4820_rosbot) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[31.359689] (mtre4820_rosbot) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[31.359903] (mtre4820_rosbot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[31.360275] (mtre4820_rosbot) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[31.364212] (mtre4820_rosbot) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[31.364440] (mtre4820_rosbot) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[31.379028] (mtre4820_rosbot) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[31.404595] (-) TimerEvent: {}
+[31.489214] (mtre4820_rosbot) StdoutLine: {'line': b'-- Configuring done\n'}
+[31.495715] (mtre4820_rosbot) StdoutLine: {'line': b'-- Generating done\n'}
+[31.498975] (mtre4820_rosbot) StdoutLine: {'line': b'-- Build files have been written to: /home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot\n'}
+[31.504745] (-) TimerEvent: {}
+[31.510462] (mtre4820_rosbot) CommandEnded: {'returncode': 0}
+[31.513117] (mtre4820_rosbot) JobProgress: {'identifier': 'mtre4820_rosbot', 'progress': 'build'}
+[31.513182] (mtre4820_rosbot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot', '--', '-j8', '-l8'], 'cwd': '/home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/opt/ros/humble/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/gramisaam/rosbot_ws/install/rosbot_description/share:/home/gramisaam/rosbot_ws/install/open_manipulator_x_description/share:/home/gramisaam/rosbot_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models:/home/gramisaam/rosbot_ws/install/husarion_components_description/share:/opt/ros/humble/share:/opt/ros/humble/share/as2_gazebo_assets/worlds:/opt/ros/humble/share/as2_gazebo_assets/models'), ('USER', 'gramisaam'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/gramisaam/rosbot_ws/install/rosbot_hardware_interfaces/lib:/home/gramisaam/rosbot_ws/install/mecanum_drive_controller/lib:/home/gramisaam/rosbot_ws/install/dynamixel_hardware_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/gramisaam'), ('OLDPWD', '/home/gramisaam/mtre4820-final-project/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('ROS_IP', '10.100.155.136'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gramisaam/mtre4820-final-project/install:/home/gramisaam/rosbot_ws/install:/home/gramisaam/mtre4820-final-project/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gramisaam'), ('NAME', 'LAPTOP-4OTR9SNP'), ('WSL_INTEROP', '/run/WSL/1626_interop'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/gramisaam/rosbot_ws/install/rosbot_description/share:/home/gramisaam/rosbot_ws/install/open_manipulator_x_description/share:/home/gramisaam/rosbot_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models:/home/gramisaam/rosbot_ws/install/husarion_components_description/share:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/gramisaam/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2025b/runtime/win64:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Users/acrfa/OneDrive - Kennesaw State University/Classes/MTRE 3610/MTRE 3610 MATLAB/bin:/mnt/c/Program Files (x86)/Pololu/USB AVR Programmer v2/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/acrfa/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/acrfa/AppData/Local/Muse Hub/lib:/mnt/c/Users/acrfa/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/acrfa/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('WT_SESSION', '64ba4ec5-e1a1-41c7-97aa-d0efbb8d7691'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('HUSARION_ROS_BUILD_TYPE', 'simulation'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/gramisaam/mtre4820-final-project/install/rosbot_description:/home/gramisaam/rosbot_ws/install/rosbot:/home/gramisaam/rosbot_ws/install/rosbot_gazebo:/home/gramisaam/rosbot_ws/install/rosbot_controller:/home/gramisaam/rosbot_ws/install/rosbot_utils:/home/gramisaam/rosbot_ws/install/rosbot_localization:/home/gramisaam/rosbot_ws/install/rosbot_joy:/home/gramisaam/rosbot_ws/install/rosbot_hardware_interfaces:/home/gramisaam/rosbot_ws/install/open_manipulator_x_moveit:/home/gramisaam/rosbot_ws/install/rosbot_description:/home/gramisaam/rosbot_ws/install/rosbot_bringup:/home/gramisaam/rosbot_ws/install/open_manipulator_x_joy:/home/gramisaam/rosbot_ws/install/open_manipulator_x_description:/home/gramisaam/rosbot_ws/install/mecanum_drive_controller:/home/gramisaam/rosbot_ws/install/husarion_gz_worlds:/home/gramisaam/rosbot_ws/install/husarion_components_description:/home/gramisaam/rosbot_ws/install/dynamixel_hardware_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:e9dc0933-c925-4421-a0f0-8d9fc8c6f3dd'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/gramisaam/rosbot_ws/install/rosbot_description/share:/home/gramisaam/rosbot_ws/install/open_manipulator_x_description/share:/home/gramisaam/rosbot_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models:/home/gramisaam/rosbot_ws/install/husarion_components_description/share:/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/opt/ros/humble/share'), ('GZ_VERSION', 'fortress'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gramisaam/rosbot_ws/build/rosbot_gazebo:/home/gramisaam/rosbot_ws/install/rosbot_gazebo/lib/python3.10/site-packages:/home/gramisaam/rosbot_ws/build/rosbot_controller:/home/gramisaam/rosbot_ws/install/rosbot_controller/lib/python3.10/site-packages:/home/gramisaam/rosbot_ws/build/rosbot_utils:/home/gramisaam/rosbot_ws/install/rosbot_utils/lib/python3.10/site-packages:/home/gramisaam/rosbot_ws/install/rosbot_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('VTE_VERSION', '6800'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/gramisaam/mtre4820-final-project/install/rosbot_description:/home/gramisaam/rosbot_ws/install/rosbot:/home/gramisaam/rosbot_ws/install/rosbot_localization:/home/gramisaam/rosbot_ws/install/rosbot_joy:/home/gramisaam/rosbot_ws/install/rosbot_hardware_interfaces:/home/gramisaam/rosbot_ws/install/open_manipulator_x_moveit:/home/gramisaam/rosbot_ws/install/rosbot_description:/home/gramisaam/rosbot_ws/install/open_manipulator_x_joy:/home/gramisaam/rosbot_ws/install/open_manipulator_x_description:/home/gramisaam/rosbot_ws/install/mecanum_drive_controller:/home/gramisaam/rosbot_ws/install/husarion_gz_worlds:/home/gramisaam/rosbot_ws/install/husarion_components_description:/home/gramisaam/rosbot_ws/install/dynamixel_hardware_interface:/home/gramisaam/rosbot_ws/install/rosbot_gazebo:/home/gramisaam/rosbot_ws/install/rosbot_controller:/home/gramisaam/rosbot_ws/install/rosbot_utils:/home/gramisaam/rosbot_ws/install/rosbot_bringup:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[31.552013] (mtre4820_rosbot) CommandEnded: {'returncode': 0}
+[31.552674] (mtre4820_rosbot) JobProgress: {'identifier': 'mtre4820_rosbot', 'progress': 'install'}
+[31.563874] (mtre4820_rosbot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot'], 'cwd': '/home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/opt/ros/humble/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/gramisaam/rosbot_ws/install/rosbot_description/share:/home/gramisaam/rosbot_ws/install/open_manipulator_x_description/share:/home/gramisaam/rosbot_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models:/home/gramisaam/rosbot_ws/install/husarion_components_description/share:/opt/ros/humble/share:/opt/ros/humble/share/as2_gazebo_assets/worlds:/opt/ros/humble/share/as2_gazebo_assets/models'), ('USER', 'gramisaam'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/gramisaam/rosbot_ws/install/rosbot_hardware_interfaces/lib:/home/gramisaam/rosbot_ws/install/mecanum_drive_controller/lib:/home/gramisaam/rosbot_ws/install/dynamixel_hardware_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/gramisaam'), ('OLDPWD', '/home/gramisaam/mtre4820-final-project/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('ROS_IP', '10.100.155.136'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gramisaam/mtre4820-final-project/install:/home/gramisaam/rosbot_ws/install:/home/gramisaam/mtre4820-final-project/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gramisaam'), ('NAME', 'LAPTOP-4OTR9SNP'), ('WSL_INTEROP', '/run/WSL/1626_interop'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/gramisaam/rosbot_ws/install/rosbot_description/share:/home/gramisaam/rosbot_ws/install/open_manipulator_x_description/share:/home/gramisaam/rosbot_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models:/home/gramisaam/rosbot_ws/install/husarion_components_description/share:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/gramisaam/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2025b/runtime/win64:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Users/acrfa/OneDrive - Kennesaw State University/Classes/MTRE 3610/MTRE 3610 MATLAB/bin:/mnt/c/Program Files (x86)/Pololu/USB AVR Programmer v2/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/acrfa/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/acrfa/AppData/Local/Muse Hub/lib:/mnt/c/Users/acrfa/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/acrfa/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('WT_SESSION', '64ba4ec5-e1a1-41c7-97aa-d0efbb8d7691'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('HUSARION_ROS_BUILD_TYPE', 'simulation'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/gramisaam/mtre4820-final-project/install/rosbot_description:/home/gramisaam/rosbot_ws/install/rosbot:/home/gramisaam/rosbot_ws/install/rosbot_gazebo:/home/gramisaam/rosbot_ws/install/rosbot_controller:/home/gramisaam/rosbot_ws/install/rosbot_utils:/home/gramisaam/rosbot_ws/install/rosbot_localization:/home/gramisaam/rosbot_ws/install/rosbot_joy:/home/gramisaam/rosbot_ws/install/rosbot_hardware_interfaces:/home/gramisaam/rosbot_ws/install/open_manipulator_x_moveit:/home/gramisaam/rosbot_ws/install/rosbot_description:/home/gramisaam/rosbot_ws/install/rosbot_bringup:/home/gramisaam/rosbot_ws/install/open_manipulator_x_joy:/home/gramisaam/rosbot_ws/install/open_manipulator_x_description:/home/gramisaam/rosbot_ws/install/mecanum_drive_controller:/home/gramisaam/rosbot_ws/install/husarion_gz_worlds:/home/gramisaam/rosbot_ws/install/husarion_components_description:/home/gramisaam/rosbot_ws/install/dynamixel_hardware_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:e9dc0933-c925-4421-a0f0-8d9fc8c6f3dd'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/gramisaam/rosbot_ws/install/rosbot_description/share:/home/gramisaam/rosbot_ws/install/open_manipulator_x_description/share:/home/gramisaam/rosbot_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models:/home/gramisaam/rosbot_ws/install/husarion_components_description/share:/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/opt/ros/humble/share'), ('GZ_VERSION', 'fortress'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gramisaam/rosbot_ws/build/rosbot_gazebo:/home/gramisaam/rosbot_ws/install/rosbot_gazebo/lib/python3.10/site-packages:/home/gramisaam/rosbot_ws/build/rosbot_controller:/home/gramisaam/rosbot_ws/install/rosbot_controller/lib/python3.10/site-packages:/home/gramisaam/rosbot_ws/build/rosbot_utils:/home/gramisaam/rosbot_ws/install/rosbot_utils/lib/python3.10/site-packages:/home/gramisaam/rosbot_ws/install/rosbot_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('VTE_VERSION', '6800'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/gramisaam/mtre4820-final-project/install/rosbot_description:/home/gramisaam/rosbot_ws/install/rosbot:/home/gramisaam/rosbot_ws/install/rosbot_localization:/home/gramisaam/rosbot_ws/install/rosbot_joy:/home/gramisaam/rosbot_ws/install/rosbot_hardware_interfaces:/home/gramisaam/rosbot_ws/install/open_manipulator_x_moveit:/home/gramisaam/rosbot_ws/install/rosbot_description:/home/gramisaam/rosbot_ws/install/open_manipulator_x_joy:/home/gramisaam/rosbot_ws/install/open_manipulator_x_description:/home/gramisaam/rosbot_ws/install/mecanum_drive_controller:/home/gramisaam/rosbot_ws/install/husarion_gz_worlds:/home/gramisaam/rosbot_ws/install/husarion_components_description:/home/gramisaam/rosbot_ws/install/dynamixel_hardware_interface:/home/gramisaam/rosbot_ws/install/rosbot_gazebo:/home/gramisaam/rosbot_ws/install/rosbot_controller:/home/gramisaam/rosbot_ws/install/rosbot_utils:/home/gramisaam/rosbot_ws/install/rosbot_bringup:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[31.570901] (mtre4820_rosbot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.571080] (mtre4820_rosbot) StdoutLine: {'line': b'-- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/urdf\n'}
+[31.571849] (mtre4820_rosbot) StdoutLine: {'line': b'-- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/urdf/rosbot.gazebo\n'}
+[31.571957] (mtre4820_rosbot) StdoutLine: {'line': b'-- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/urdf/rosbot.xacro\n'}
+[31.572152] (mtre4820_rosbot) StdoutLine: {'line': b'-- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/urdf/materials.xacro\n'}
+[31.572413] (mtre4820_rosbot) StdoutLine: {'line': b'-- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/meshes\n'}
+[31.572708] (mtre4820_rosbot) StdoutLine: {'line': b'-- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/meshes/upper.stl\n'}
+[31.572832] (mtre4820_rosbot) StdoutLine: {'line': b'-- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/meshes/astra.stl\n'}
+[31.573033] (mtre4820_rosbot) StdoutLine: {'line': b'-- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/meshes/rplidar.stl\n'}
+[31.573197] (mtre4820_rosbot) StdoutLine: {'line': b'-- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/meshes/wheel.stl\n'}
+[31.573356] (mtre4820_rosbot) StdoutLine: {'line': b'-- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/meshes/box.stl\n'}
+[31.573938] (mtre4820_rosbot) StdoutLine: {'line': b'-- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/launch\n'}
+[31.574197] (mtre4820_rosbot) StdoutLine: {'line': b'-- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/launch/rosbot.launch.py\n'}
+[31.575238] (mtre4820_rosbot) StdoutLine: {'line': b'-- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/ament_index/resource_index/package_run_dependencies/mtre4820_rosbot\n'}
+[31.575308] (mtre4820_rosbot) StdoutLine: {'line': b'-- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/ament_index/resource_index/parent_prefix_path/mtre4820_rosbot\n'}
+[31.575566] (mtre4820_rosbot) StdoutLine: {'line': b'-- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/environment/ament_prefix_path.sh\n'}
+[31.575634] (mtre4820_rosbot) StdoutLine: {'line': b'-- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/environment/ament_prefix_path.dsv\n'}
+[31.575692] (mtre4820_rosbot) StdoutLine: {'line': b'-- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/environment/path.sh\n'}
+[31.575907] (mtre4820_rosbot) StdoutLine: {'line': b'-- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/environment/path.dsv\n'}
+[31.576175] (mtre4820_rosbot) StdoutLine: {'line': b'-- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/local_setup.bash\n'}
+[31.576242] (mtre4820_rosbot) StdoutLine: {'line': b'-- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/local_setup.sh\n'}
+[31.576414] (mtre4820_rosbot) StdoutLine: {'line': b'-- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/local_setup.zsh\n'}
+[31.576482] (mtre4820_rosbot) StdoutLine: {'line': b'-- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/local_setup.dsv\n'}
+[31.576563] (mtre4820_rosbot) StdoutLine: {'line': b'-- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/package.dsv\n'}
+[31.576772] (mtre4820_rosbot) StdoutLine: {'line': b'-- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/ament_index/resource_index/packages/mtre4820_rosbot\n'}
+[31.576840] (mtre4820_rosbot) StdoutLine: {'line': b'-- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/cmake/mtre4820_rosbotConfig.cmake\n'}
+[31.577042] (mtre4820_rosbot) StdoutLine: {'line': b'-- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/cmake/mtre4820_rosbotConfig-version.cmake\n'}
+[31.577111] (mtre4820_rosbot) StdoutLine: {'line': b'-- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/package.xml\n'}
+[31.579432] (mtre4820_rosbot) CommandEnded: {'returncode': 0}
+[31.592784] (mtre4820_rosbot) JobEnded: {'identifier': 'mtre4820_rosbot', 'rc': 0}
+[31.594207] (-) EventReactorShutdown: {}

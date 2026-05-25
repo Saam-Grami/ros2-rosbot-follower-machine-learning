@@ -1,0 +1,142 @@
+[0.013s] Invoking command in '/home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gramisaam/rosbot_ws/install/rosbot_gazebo:/home/gramisaam/rosbot_ws/install/rosbot_controller:/home/gramisaam/rosbot_ws/install/rosbot_utils:/home/gramisaam/rosbot_ws/install/rosbot_bringup:/opt/ros/humble /usr/bin/cmake /home/gramisaam/mtre4820-final-project/src/mtre4820_rosbot -DCMAKE_INSTALL_PREFIX=/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot
+[0.142s] -- The C compiler identification is GNU 11.4.0
+[0.516s] -- The CXX compiler identification is GNU 11.4.0
+[0.798s] -- Detecting C compiler ABI info
+[0.943s] -- Detecting C compiler ABI info - done
+[0.949s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.949s] -- Detecting C compile features
+[0.950s] -- Detecting C compile features - done
+[0.953s] -- Detecting CXX compiler ABI info
+[1.106s] -- Detecting CXX compiler ABI info - done
+[1.112s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.113s] -- Detecting CXX compile features
+[1.113s] -- Detecting CXX compile features - done
+[1.118s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.266s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.372s] -- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+[1.375s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[1.524s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.530s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.539s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.551s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.569s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.673s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.674s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.674s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.720s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.723s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.779s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.887s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.914s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.924s] -- Looking for pthread.h
+[6.064s] -- Looking for pthread.h - found
+[6.065s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.196s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.197s] -- Found Threads: TRUE  
+[7.394s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[7.404s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[7.405s] -- Checking for module 'bullet>=2.82'
+[7.418s] --   Found bullet, version 3.05
+[7.568s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[7.624s] -- Found assimp: /usr/include (found version "5.2.0") 
+[7.645s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[7.675s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[8.005s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[8.011s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.017s] -- Searching for dependencies of ignition-math6
+[8.018s] -- Looking for OGRE...
+[8.018s] -- OGRE_PREFIX_WATCH changed.
+[8.023s] -- Checking for module 'OGRE'
+[8.037s] --   Found OGRE, version 1.9.0
+[8.073s] -- Found Ogre Ghadamon (1.9.0)
+[8.423s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[8.430s] -- Looking for OGRE_Paging...
+[8.749s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[8.749s] -- Looking for OGRE_Terrain...
+[9.066s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[9.066s] -- Looking for OGRE_Property...
+[9.370s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[9.370s] -- Looking for OGRE_RTShaderSystem...
+[9.696s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[9.696s] -- Looking for OGRE_Volume...
+[10.014s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[10.014s] -- Looking for OGRE_Overlay...
+[10.327s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[26.897s] -- Looking for ignition-math6 -- found version 6.15.1
+[26.901s] -- Looking for ignition-transport8 -- found version 8.2.1
+[26.901s] -- Searching for dependencies of ignition-transport8
+[27.855s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[28.811s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[28.816s] -- Checking for module 'libzmq >= 4'
+[28.827s] --   Found libzmq , version 4.3.4
+[28.870s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[28.915s] -- Checking for module 'uuid'
+[28.927s] --   Found uuid, version 2.37.2
+[28.964s] -- Found UUID: TRUE  
+[28.967s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[28.967s] -- Searching for dependencies of ignition-msgs5
+[29.918s] -- Looking for ignition-math6 -- found version 6.15.1
+[29.922s] -- Checking for module 'tinyxml2'
+[29.937s] --   Found tinyxml2, version 9.0.0
+[29.971s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[29.974s] -- Looking for ignition-common3 -- found version 3.14.0
+[29.975s] -- Searching for dependencies of ignition-common3
+[30.011s] -- Looking for dlfcn.h - found
+[30.041s] -- Looking for libdl - found
+[30.043s] -- Found DL: TRUE  
+[30.112s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[30.113s] -- Searching for <ignition-common3> component [graphics]
+[30.115s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[30.116s] -- Searching for dependencies of ignition-common3-graphics
+[30.116s] -- Looking for ignition-math6 -- found version 6.15.1
+[30.120s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[30.120s] -- Searching for dependencies of ignition-fuel_tools4
+[31.247s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[31.255s] -- Checking for module 'jsoncpp'
+[31.268s] --   Found jsoncpp, version 1.9.5
+[31.303s] -- Found JSONCPP: TRUE  
+[31.309s] -- Checking for module 'libzip'
+[31.325s] --   Found libzip, version 1.7.3
+[31.358s] -- Found ZIP: TRUE  
+[31.359s] -- Looking for ignition-common3 -- found version 3.14.0
+[31.359s] -- Looking for ignition-math6 -- found version 6.15.1
+[31.359s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[31.363s] -- Gazebo version: 11.10
+[31.364s] -- Checking for module 'tbb'
+[31.378s] --   Found tbb, version 2021.5.0
+[31.488s] -- Configuring done
+[31.495s] -- Generating done
+[31.498s] -- Build files have been written to: /home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot
+[31.510s] Invoked command in '/home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gramisaam/rosbot_ws/install/rosbot_gazebo:/home/gramisaam/rosbot_ws/install/rosbot_controller:/home/gramisaam/rosbot_ws/install/rosbot_utils:/home/gramisaam/rosbot_ws/install/rosbot_bringup:/opt/ros/humble /usr/bin/cmake /home/gramisaam/mtre4820-final-project/src/mtre4820_rosbot -DCMAKE_INSTALL_PREFIX=/home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot
+[31.513s] Invoking command in '/home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gramisaam/rosbot_ws/install/rosbot_gazebo:/home/gramisaam/rosbot_ws/install/rosbot_controller:/home/gramisaam/rosbot_ws/install/rosbot_utils:/home/gramisaam/rosbot_ws/install/rosbot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot -- -j8 -l8
+[31.551s] Invoked command in '/home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gramisaam/rosbot_ws/install/rosbot_gazebo:/home/gramisaam/rosbot_ws/install/rosbot_controller:/home/gramisaam/rosbot_ws/install/rosbot_utils:/home/gramisaam/rosbot_ws/install/rosbot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot -- -j8 -l8
+[31.563s] Invoking command in '/home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gramisaam/rosbot_ws/install/rosbot_gazebo:/home/gramisaam/rosbot_ws/install/rosbot_controller:/home/gramisaam/rosbot_ws/install/rosbot_utils:/home/gramisaam/rosbot_ws/install/rosbot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot
+[31.570s] -- Install configuration: ""
+[31.570s] -- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/urdf
+[31.571s] -- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/urdf/rosbot.gazebo
+[31.571s] -- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/urdf/rosbot.xacro
+[31.571s] -- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/urdf/materials.xacro
+[31.572s] -- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/meshes
+[31.572s] -- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/meshes/upper.stl
+[31.572s] -- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/meshes/astra.stl
+[31.572s] -- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/meshes/rplidar.stl
+[31.572s] -- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/meshes/wheel.stl
+[31.572s] -- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/meshes/box.stl
+[31.573s] -- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/launch
+[31.573s] -- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/launch/rosbot.launch.py
+[31.574s] -- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/ament_index/resource_index/package_run_dependencies/mtre4820_rosbot
+[31.574s] -- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/ament_index/resource_index/parent_prefix_path/mtre4820_rosbot
+[31.575s] -- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/environment/ament_prefix_path.sh
+[31.575s] -- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/environment/ament_prefix_path.dsv
+[31.575s] -- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/environment/path.sh
+[31.575s] -- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/environment/path.dsv
+[31.575s] -- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/local_setup.bash
+[31.575s] -- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/local_setup.sh
+[31.576s] -- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/local_setup.zsh
+[31.576s] -- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/local_setup.dsv
+[31.576s] -- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/package.dsv
+[31.576s] -- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/ament_index/resource_index/packages/mtre4820_rosbot
+[31.576s] -- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/cmake/mtre4820_rosbotConfig.cmake
+[31.576s] -- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/cmake/mtre4820_rosbotConfig-version.cmake
+[31.576s] -- Installing: /home/gramisaam/mtre4820-final-project/install/mtre4820_rosbot/share/mtre4820_rosbot/package.xml
+[31.579s] Invoked command in '/home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gramisaam/rosbot_ws/install/rosbot_gazebo:/home/gramisaam/rosbot_ws/install/rosbot_controller:/home/gramisaam/rosbot_ws/install/rosbot_utils:/home/gramisaam/rosbot_ws/install/rosbot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/gramisaam/mtre4820-final-project/build/mtre4820_rosbot

@@ -1,0 +1,1 @@
+gazebo_plugins:gazebo_ros:geometry_msgs:joint_state_publisher:nav_msgs:robot_state_publisher:sensor_msgs:xacro
